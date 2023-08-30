@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3:first-child{
+        color:pink;
+        }
+        #greycol{
+        color:grey;
+        }
+        .text-box div p{
+        color:red;
+        }
+        .yellow{
+        color:yellow;
+        }
+        p:nth-of-type(3){
+            color:green;
+        }
+        .first li:first-child{
+        color:red;
+        }
+        .first li:last-child{
+            color:yellow;
+        }
+        .first li:nth-child(3){
+            color:aqua;
+        }
+        .second li:nth-child(n+2){
+        color:blue;
+        }
+        .monday li:nth-child(-n+4){
+            color:brown;
+        }
+        .first li:first-child:hover{
+        color:orange;
+        }
+        button:disabled{
+        font-size: 50px;
+        }
+        a:visited{
+        color:green
+        }
+        a:focus{
+        color:red;  
+        }
+    </style>
+</head>
+<body>
+<div class="text-box">
+    <h3>Пофарбуйте мене в рожевий колір (color:pink).</h3>
+    <p>Даний елемент має залишитись неоформленим.</p>
+    <p id='greycol'>Пофарбуйте мене в сірий колір (color:grey).</p>
+    <div>Даний елемент має залишитись неоформленим.</div>
+    <div><p>Пофарбуйте мене в червоний колір (color:red).</p></div>
+    <h3>Даний елемент має залишитись неоформленим.</h3>
+    <p>Пофарбуйте мене в зелений колір (color:green).</p>
+   <p class='yellow'>Пофарбуйте мене в жовтий колір (color:yellow).</p>
+</div>
+
+
+
+<div>
+<ul class="first">
+    <li>matematik</li>
+    <li><button disabled>matematik</button></li>
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+</ul>
+<ul class="second">
+    <li><a target="_blank" href="https://www.roblox.com/">matematik</a></li>
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+</ul>
+<ul class="monday">
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+</ul>
+<ul class="yurii">
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+</ul>
+<ul class="windows">
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+    <li>matematik</li>
+</ul>
+</div>
+</body>
+</html>
